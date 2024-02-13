@@ -1,0 +1,108 @@
+* {
+    margin-left: 80px;
+    margin-right: 80px;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    position: relative;
+}
+
+.nav a {
+    margin-left: -22px;
+    position: relative;
+    font-size: 1.2rem;
+    color: black;
+    text-decoration: none;
+}
+
+.plant {
+    display: flex;
+    justify-content: space-between;
+}
+
+.plant .para {
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.plant .para .up {
+    font-size: 40px;
+    width: 350px;
+    font-weight: bold;
+    /* text-align: justify; */
+    margin-top: 150px;
+}
+
+.plant .para .low {
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+.plant .img-plant img {
+    height: 300px;
+    width: 300px;
+    margin-top: 150px;
+    margin-right: 150px;
+}
+
+.plant .explore {
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 28px;
+    border-radius: 10px;
+    width: 120px;
+    height: 5px;
+    text-align: center;
+}
+
+.plant .explore i {
+    margin-right: -50px;
+}
+
+.plant .Social {
+    color: red;
+}
+
+/* -------------------------------section-2-------------- */
+.Section-2 .slide img {
+    width: 300px;
+    height: 300px;
+}
+
+.Section-2 .slide {
+    white-space: nowrap;
+    padding: 60px 0 0 0;
+    background: white;
+}
+
+.About {
+    display: flex;
+    align-content: space-between;
+}
+
+.About .right h3 {
+    font-size: 40px;
+    margin: 10px;
+}
+
+.About .right h5 {
+    font-size: 25px;
+    margin: 10px;
+}
+
+.About .check {
+    font-size: 20px;
+}
+
+.About .check input {
+    margin: 10px;
+}
+
+.About .check .shop-now a {}
+
+.About .check .shop-now i {}
