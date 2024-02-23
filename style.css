@@ -1,6 +1,6 @@
 * {
-    margin-left: 80px;
-    margin-right: 80px;
+    /* margin-left: 80px;
+    margin-right: 80px; */
     padding: 0;
     scroll-behavior: smooth;
 }
@@ -106,3 +106,26 @@
 .About .check .shop-now a {}
 
 .About .check .shop-now i {}
+.Products{
+    height: 100vh;
+}
+
+.Products .menu_card .card{
+    /* width: 500px;
+    height: 350px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: aqua;
+    text-align: center; */
+}
+.Products .menu_card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Products .menu_card .card img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
